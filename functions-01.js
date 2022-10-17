@@ -16,7 +16,8 @@
  * example: 'Buzz Lightyear' returns 'Lightyear, Buzz'
  */
 function nameShuffle(str) {
-  // write your code here & return value
+  const fullname = str.split(" ");
+  return `${fullname[1]}, ${fullname[0]}`;
 }
 
 /**
